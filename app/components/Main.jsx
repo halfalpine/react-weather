@@ -1,4 +1,6 @@
-import React from 'react';
+import React from 'react';;
+import Display from './Display.jsx';
+import Form from './Form.jsx';
 
 class Main extends React.Component {
   constructor(props) {
@@ -6,7 +8,11 @@ class Main extends React.Component {
   }
   render() {
     return (
-      <div>Hello React</div>
+      <div>
+        <p>React Weather</p>
+        <Display/>
+        <Form/>
+      </div>
     );
   }
 };
